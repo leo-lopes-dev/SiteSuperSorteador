@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <title>SuperSorteador</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="imagens/dollar_9382189.png">
+</head>
+<body>
+    <!-- Cabeçalho -->
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-warning fw-bold" href="index.html">
+                <img src="imagens/dollar_9382189.png" alt="" width="30" height="ms-auto" class="d-inline-block align-text-top">
+                SuperSorteador
+                <img src="imagens/dollar_9382189.png" alt="" width="30" height="ms-auto" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler text-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fw-bold" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fw-bold" href="sorteadornumero.html">Sorteio de números</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning fw-bold" href="sorteadornome.html">Sorteio de nomes</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+    <!-- Conteúdo -->
+    <main>
+        <div class="container" id="container1">
+            <h2>Sortear Números</h2>
+            <p>Sorteia um número aleatório entre os dois números indicados</p>
+            <p>
+                Primeiro número
+                <label for="minimo"></label>
+                <input type="number" id="minimo" value="1">
+            </p>
+            <p>
+                Segundo número
+                <label for="maximo"></label>
+                <input type="number" id="maximo">
+            </p>
+            <button onclick="sortearNum()" id="button2">Sortear</button>
+            <section id="result">
+                <p>O número sorteador é: </p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados. <a href="https://github.com/leo-lopes-dev">@leo-lopes-dev</a></p>
+    </footer>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<!-- O-->
+<!-- mudar fontes, css dos outros 2 e sorteador de nomes-->
